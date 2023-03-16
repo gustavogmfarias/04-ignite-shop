@@ -1,5 +1,5 @@
 import { GetServerSideProps } from "next";
-import Image from "next/future/image";
+import Image from "next/image";
 import Link from "next/link";
 import Stripe from "stripe";
 import { stripe } from "../lib/stripe";
